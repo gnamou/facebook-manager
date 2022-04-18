@@ -28,7 +28,7 @@ class ProfileController extends Controller
     public function handleProviderFacebookCallback()
     {
         try {
-        $user = Socialite::driver('facebook')->stateless()->user();
+        $user = Socialite::driver('facebook')->user();
         } catch (\RuntimeException $rt) {
             return view('errors.500');
         }
