@@ -30,8 +30,7 @@ class ProfileController extends Controller
         try {
         $user = Socialite::driver('facebook')->stateless()->user();
         } catch (\RuntimeException $rt) {
-            echo 'Erreur lors de la connexion a facebook <br>'. $rt->getMessage();
-            exit;
+            return view('errors.500');
         }
         //dd($user);
         $saveUser = User::where('facebook_app_id', $user->id)->first();
