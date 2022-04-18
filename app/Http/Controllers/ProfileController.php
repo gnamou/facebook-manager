@@ -47,7 +47,7 @@ class ProfileController extends Controller
                 'name' => $user->name,
                 'facebook_app_id' => $user->id,
                 'token' => $user->token,
-                'password' => Hash::make(12345678)
+                'password' => \Hash::make(12345678)
             ]);   
         }
         //dd($saveUser);
