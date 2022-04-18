@@ -37,6 +37,6 @@ Run the database migrations (**Set the database connection in .env before migrat
 
     php artisan migrate
 
-Start the local development server
+Start the local development server(**Set the FACEBOOK_APP_ID, FACEBOOK_APP_SECRET AND FACEBOOK_REDIRECT variables in .env before using the app**)
 
     http://localhost:8000
