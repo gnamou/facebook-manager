@@ -1,6 +1,4 @@
-# Integrating-Facebook-SDK-into-Laravel-Project
-►In this Laravel 7 tutorial we will learn Facebook post upload, update, video post upload 
-►In this video, We will discuss how to display Facebook page post on the website with Graph API in PHP
+# FACEBOOK-PAGE-MANAGER
 
 ----------
 
@@ -8,16 +6,16 @@
 
 ## Installation
 
-Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/8.x/installation)
+Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/9.x/installation)
 
 
 Clone the repository
 
-    get clone git@github.com:VMLearningHub/Integrating-Facebook-SDK-into-Laravel-Project.git
+    get clone https://github.com/gnamou/facebook-manager.git
 
 Switch to the repo folder
 
-    cd Integrating-Facebook-SDK-into-Laravel-Project
+    cd facebook-manager
 
 Install all the dependencies using composer
 
@@ -41,4 +39,4 @@ Run the database migrations (**Set the database connection in .env before migrat
 
 Start the local development server
 
-    http://localhost/Integrating-Facebook-SDK-into-Laravel-Project/
+    http://localhost:8000
