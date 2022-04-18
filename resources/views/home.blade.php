@@ -30,8 +30,6 @@
     </div>
     <div class="container">
         
-        <div class="">
-        @if ($pages & count($pages)>0)
             @foreach ($pages as $page)
                 <div class="row">
                     <div class="col-md-12">
@@ -83,9 +81,4 @@
                     </div>
                 </div>
             @endforeach
-        @else
-            <div class="text-center">
-                Aucune page trouvée
-            </div>
-        @endif
 @endsection
